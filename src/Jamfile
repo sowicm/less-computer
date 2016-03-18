@@ -1,0 +1,5 @@
+
+exe LessComputer : [ glob-tree *.h *.c *.cpp ] :
+    <define>_UNICODE <define>UNICODE
+    ;
+install dist : LessComputer : <location>../dist ;

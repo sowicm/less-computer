@@ -1,0 +1,7 @@
+
+project :
+    : build-dir bin
+    : default-build release
+    ;
+use-project src : src ;
+alias main : src ;
